@@ -37,6 +37,9 @@ gem "thruster", require: false
 
 gem "faraday", "~> 2.12", ">= 2.12.2"
 
+# https://rubygems.org/gems/bunny/versions/2.23.0
+gem "bunny", "~> 2.23"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
