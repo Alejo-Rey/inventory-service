@@ -35,7 +35,7 @@ gem "thruster", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 # gem "rack-cors"
 
-gem "faraday", "~> 2.12", ">= 2.12.2"
+gem "faraday", "~> 2.13"
 
 # https://rubygems.org/gems/bunny/versions/2.23.0
 gem "bunny", "~> 2.23"
